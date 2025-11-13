@@ -10,8 +10,8 @@ const theme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: '#DB1D7C',
-    secondary: '#378A37',
+    primary: 'orange', //a sombra de quando clica no botao tava roxo, aí tive que mudar aqui pra poder pegar pq mudando diretamente no botao nao funcionou
+    secondary: '#000',
   },
 };
 
